@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "Shop.Shared";
+
+package book;
+
+service BookProtocol {
+  rpc GetBookSnapshot (BookSnapshotRequest) returns (BookSnapshotReply);
+}
+
+message BookSnapshotRequest {
+  string id = 1;
+}
+
+message BookSnapshotReply {
+  string title = 1;
+}
+
