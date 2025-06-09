@@ -2,7 +2,7 @@
 using Shop.Library.API.Domain;
 using MediatR;
 
-namespace Shop.Library.API.Features.Books.Commands
+namespace Shop.Library.API.Features.Books
 {
     public class CreateBookCommand : IRequest<Guid>
     {
@@ -10,6 +10,7 @@ namespace Shop.Library.API.Features.Books.Commands
         public Guid PublisherId { get; set; }
         public Guid CategoryId { get; set; }
         public string Title { get; set; }
+        public string Isbn { get; set; }
         public string Description { get; set; }
     }
 

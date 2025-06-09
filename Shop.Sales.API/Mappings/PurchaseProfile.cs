@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Shop.Sales.API.Domain;
-using Shop.Sales.API.Features.Purchases.Commands;
+using Shop.Sales.API.Features.Purchases;
 
 namespace Shop.Sales.API.Mappings
 {

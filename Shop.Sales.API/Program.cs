@@ -2,7 +2,7 @@ using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Shop.Sales.API.Domain;
 using Shop.Sales.API.Endpoints;
-using Shop.Sales.API.Features.Purchases.Consumers;
+using Shop.Sales.API.Features.Purchases;
 using Shop.Shared;
 
 var builder = WebApplication.CreateBuilder(args);

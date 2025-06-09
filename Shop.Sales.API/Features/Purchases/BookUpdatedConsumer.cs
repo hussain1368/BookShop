@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Shop.Sales.API.Domain;
 using Shop.Shared.Models.ServiceBus;
 
-namespace Shop.Sales.API.Features.Purchases.Consumers
+namespace Shop.Sales.API.Features.Purchases
 {
     public class BookUpdatedConsumer(PurchaseContext dbContext) : IConsumer<BookUpdated>
     {

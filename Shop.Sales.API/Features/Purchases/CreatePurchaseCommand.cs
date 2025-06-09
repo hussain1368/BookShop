@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using MassTransit;
 using Shop.Shared.Models.ServiceBus;
 
-namespace Shop.Sales.API.Features.Purchases.Commands
+namespace Shop.Sales.API.Features.Purchases
 {
     public class CreatePurchaseCommand : IRequest<Guid>
     {

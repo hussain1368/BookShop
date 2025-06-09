@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Shop.Library.API.Domain;
-using Shop.Library.API.Features.Books.Commands;
+using Shop.Library.API.Features.Books;
 
 namespace Shop.Library.API.Mappings
 {

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Shop.Library.API.Features.Books.Commands
+namespace Shop.Library.API.Features.Books
 {
     public class CreateBookValidator : AbstractValidator<CreateBookCommand>
     {

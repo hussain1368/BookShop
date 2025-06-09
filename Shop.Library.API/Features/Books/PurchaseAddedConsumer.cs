@@ -4,7 +4,7 @@ using Shop.Library.API.Domain;
 using Shop.Shared.Models;
 using Shop.Shared.Models.ServiceBus;
 
-namespace Shop.Library.API.Features.Books.Consumers
+namespace Shop.Library.API.Features.Books
 {
     public class PurchaseAddedConsumer(BookContext dbContext) : IConsumer<PurchaseAdded>
     {

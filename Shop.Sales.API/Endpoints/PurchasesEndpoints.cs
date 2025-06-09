@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Shop.Sales.API.Features.Purchases.Commands;
+using Shop.Sales.API.Features.Purchases;
 
 namespace Shop.Sales.API.Endpoints
 {
